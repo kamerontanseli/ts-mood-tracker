@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoodNew should render 1`] = `
+<div>
+  <p>
+    Last recorded: 
+    5
+  </p>
+  <form
+    data-test="form"
+    onSubmit={[Function]}
+  >
+    <input
+      data-test="moodBar"
+      max="10"
+      min="1"
+      name="mood"
+      onChange={[Function]}
+      required={true}
+      type="range"
+    />
+    <input
+      type="submit"
+      value="Save"
+    />
+  </form>
+</div>
+`;

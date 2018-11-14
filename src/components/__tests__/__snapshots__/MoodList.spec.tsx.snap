@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoodList should render 1`] = `
+<div>
+  <ul>
+    <li>
+      No Moods recorded yet 
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`MoodList should render history 1`] = `
+<div>
+  <ul>
+    <li />
+    <li>
+      20
+       - 
+      Wed Nov 14 2018
+    </li>
+    <li>
+      30
+       - 
+      Wed Nov 14 2018
+    </li>
+  </ul>
+</div>
+`;
